@@ -5,16 +5,7 @@
 <html lang="en">
 <jsp:include page="partials/head.jsp" />
 <body class="cssjockey-ui ">
-<%-- 
-<%
-	String logout_msg = (String) request.getAttribute("logout_msg");
-	if(logout_msg != null){
-		response.setHeader("cache-control", "no-cache, no-store, must-revalidate");
-        response.setHeader("pragma", "no-cache");
-        response.setHeader("Expires", "0");
-	}
-%>
- --%>
+
 <div id="admin-panel">
     <div class="cj-hero cj-is-fullheight cj-is-primary">
         <div class="cj-hero-head"></div>
