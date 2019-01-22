@@ -21,31 +21,31 @@
                             <div class="cj-content cj-text-center">
                             	<h4 class="cj-title cj-color-dark">Login to your account</h4>
                             	<span style="color:red;">${error_msg}</span>
-    							<form:form id="loginForm" action="login" method="POST" modelAttribute="user">
-								    <div class="field-email cj-field" id="field-email">
-								    	<div class="cj-control">
-								    	<label for="email" class="cj-help cj-color-danger" />
-								    	<form:input class="cj-input cj-is-default cj-is-medium" type="email" path="email" id="email" placeholder="Email address" />
-								    	</div>
-								    </div>
-    
-							    	<div class="field-password cj-field" id="field-password">
-							    		<div class="cj-control">
-							    		<label for="password" class="cj-help cj-color-danger" />
-							    		<form:input class="cj-input cj-is-default cj-is-medium" type="password" path="password" id="password" placeholder="Password" />
-							    		</div>
-							    	</div>
-							        <div class="field-Sign-In cj-field" id="field-Sign-In">
-							        	<div class="cj-control">
-							        	<form:button class="cj-button cj-is-info cj-is-fullwidth" type="submit">Sign In</form:button>
-							        	</div>
-							        </div>
-							    </form:form>
-							    
-							    <div class="cj-mt-30 cj-text-center">
-							        <a href="#" class="cj-color-info">Forgot password?</a><span class="cj-opacity-50 cj-m-10">|</span>
-							        Not yet a member? <a href="signup" class="cj-color-info">Sign Up</a>
-							    </div>
+				<form:form id="loginForm" action="login" method="POST" modelAttribute="user">
+				    <div class="field-email cj-field" id="field-email">
+					<div class="cj-control">
+					<label for="email" class="cj-help cj-color-danger" />
+					<form:input class="cj-input cj-is-default cj-is-medium" type="email" path="email" id="email" placeholder="Email address" />
+					</div>
+				    </div>
+
+					<div class="field-password cj-field" id="field-password">
+						<div class="cj-control">
+						<label for="password" class="cj-help cj-color-danger" />
+						<form:input class="cj-input cj-is-default cj-is-medium" type="password" path="password" id="password" placeholder="Password" />
+						</div>
+					</div>
+					<div class="field-Sign-In cj-field" id="field-Sign-In">
+						<div class="cj-control">
+						<form:button class="cj-button cj-is-info cj-is-fullwidth" type="submit">Sign In</form:button>
+						</div>
+					</div>
+				    </form:form>
+
+				    <div class="cj-mt-30 cj-text-center">
+					<a href="#" class="cj-color-info">Forgot password?</a><span class="cj-opacity-50 cj-m-10">|</span>
+					Not yet a member? <a href="signup" class="cj-color-info">Sign Up</a>
+				    </div>
                             </div>
                         </div>
                         <div class="cj-column cj-is-4-widescreen cj-is-4-desktop cj-is-12-tablet cj-is-12-mobile">&nbsp;</div>
